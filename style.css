@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+    display: flex;
+}
+.sidebar {
+    width: 260px;
+    background: #000;
+    border-right: 1px solid #222;
+    padding: 20px 15px;
+    height: 100vh;
+    position: fixed;
+}
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+.sidebar nav a {
+    display: flex;
+    align-items: center;
+    padding: 12px 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    gap: 15px;
+}
+.sidebar nav a:hover {
+    background: #111;
+    border-radius: 10px;
+}
+.profile-link {
+    margin-top: 40px;
+    display: flex;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.feed {
+    margin-left: 330px;
+    flex: 1;
+    max-width: 650px;
+    padding: 20px;
+}
+.stories {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.story {
+    text-align: center;
+}
+
+.story img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #f205ff;
+    object-fit: cover;
+}
+.story img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff0055;
+}
+
+.story p {
+    font-size: 12px;
+}
+.post {
+    background: #000;
+    border: 1px solid #222;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.post-pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-username {
+    margin-left: 10px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.post-menu {
+    font-size: 22px;
+}
+
+.post-image {
+    width: 100%;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.post-actions {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    font-size: 25px;
+}
+.post-actions i:hover {
+    transform: scale(1.25);
+    color: #ff0055;
+}
+.right-panel {
+    width: 320px;
+    padding: 20px;
+}
+
+.user-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.small-pfp {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.switch-btn {
+    color: #1e90ff;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.suggest-title {
+    margin-top: 25px;
+    color: #aaa;
+}
+
+.suggest {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.suggest img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.follow {
+    margin-left: auto;
+    color: #1e90ff;
+    cursor: pointer;
+}
