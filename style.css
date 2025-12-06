@@ -11,7 +11,7 @@ body {
     border-right: 1px solid #222;
     padding: 20px 15px;
     height: 100vh;
-    position: fixed;
+
 }
 .logo {
     font-family: 'Brush Script MT', cursive;
@@ -42,7 +42,7 @@ body {
     border-radius: 50%;
 }
 .feed {
-    margin-left: 330px;
+    margin-left: 0px;
     flex: 1;
     max-width: 650px;
     padding: 20px;
